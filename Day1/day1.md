@@ -223,7 +223,7 @@ int main(){
 }
 
 i   j(iteration)
-----------------
+_________________
 0   0
 1   1
 2   2
@@ -243,6 +243,34 @@ count = 0 + 1 + 2 + 3 + ..... + n
 // Lets take N=10⁵
 We can ignore O(n/2) ~ O(n) because it is much smaller than O(n²/2) ~ O(n²)
 // Therefore total time complexity ~ O(n²)
+
+## Space Complexity
+
+**Space Complexity represents the total amount of memory utilized by a algorithm/code, including the space of input values for execution.**
+
+#include<iostream>
+using namespace std;
+
+int main(){
+    int n;
+    cin >> n; //Space complexity = O(1)
+
+    int a;
+    a=5; //Space complexity = O(1)
+
+    int n=100;
+    arr[n]; //Space complexity = O(n)
+
+    int n=100;
+    arr[n][n]; //Space complexity = O(n²)
+}
+
+
+// O(1) + O(n) + O(n²) ~ O(n²)
+
+
+
+
 
 
 
