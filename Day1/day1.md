@@ -244,7 +244,7 @@ count = 0 + 1 + 2 + 3 + ..... + n
 We can ignore O(n/2) ~ O(n) because it is much smaller than O(n²/2) ~ O(n²)
 // Therefore total time complexity ~ O(n²)
 
-## Space Complexity
+## Space Complexity Analysis
 
 **Space Complexity represents the total amount of memory utilized by a algorithm/code, including the space of input values for execution.**
 
