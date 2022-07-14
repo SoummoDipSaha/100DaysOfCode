@@ -1,4 +1,5 @@
 // Maximum sub array sum
+// Kadane's Algorithm
 
 #include <iostream>
 #include <algorithm>
